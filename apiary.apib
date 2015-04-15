@@ -3,7 +3,7 @@ HOST: https://cryptic-badlands-8184.herokuapp.com/
 
 # Life saving API
 
-# First aid [/first_aids]
+# First aid [/rescue]
 
 # Request first aid [POST]
 
@@ -15,9 +15,10 @@ HOST: https://cryptic-badlands-8184.herokuapp.com/
 
   + Body
     ```
-   {"urgency": "top"}
+   {"emergency": "true"}
     ```
+
 + Response 201 (application/json; charset=utf-8)
   ```
-  {"urgency": "top"}
+  {"message": "You will live."}
   ```
