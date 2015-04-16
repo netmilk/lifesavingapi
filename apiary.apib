@@ -5,12 +5,13 @@ HOST: https://cryptic-badlands-8184.herokuapp.com/
 
 # Emergency [/912]
 
++ Attributes
+    + emergency: true
+
 # Request first aid [POST]
 
 + Request (application/json)
-    + Attributes
-       + emergency: true (boolean)
+    + Attributes (Emergency)
 
 + Response 201 (application/json; charset=utf-8)
-    + Attributes
-      + emergency: true
+    + Attributes (Emergency)
