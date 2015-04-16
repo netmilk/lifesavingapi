@@ -3,22 +3,14 @@ HOST: https://cryptic-badlands-8184.herokuapp.com/
 
 # Life saving API
 
-# First aid [/rescue]
+# Emergency [/912]
 
 # Request first aid [POST]
 
 + Request (application/json)
-
-  + Headers
-
-              Accept: application/json
-
-  + Body
-    ```
-   {"emergency": "true"}
-    ```
+    + Attributes
+       + emergency: true (boolean)
 
 + Response 201 (application/json; charset=utf-8)
-  ```
-  {"message": "You will live."}
-  ```
+    + Attributes
+      + emergency: true
