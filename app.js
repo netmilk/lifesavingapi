@@ -2,7 +2,7 @@ var app = require('express')();
 
 port = process.env.PORT || 3000
 
-//app.post('/rescue', function (req, res) {
+//app.post('/912', function (req, res) {
 //  res.status(201).json({"message": "You will live!"});
 //});
 
