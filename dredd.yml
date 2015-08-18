@@ -1,0 +1,27 @@
+reporter: apiary
+custom:
+  apiaryApiKey: 1adc5a37d82da4056b9dffb563305eee
+  apiaryApiName: adamjohndoe
+dry-run: null
+hookfiles: null
+language: nodejs
+sandbox: false
+server: node app.js
+server-wait: 3
+init: false
+names: false
+only: []
+output: []
+header: []
+sorted: false
+user: null
+inline-errors: false
+details: false
+method: []
+color: true
+level: info
+timestamp: false
+silent: false
+path: []
+blueprint: apiary.apib
+endpoint: 'http://localhost:3000'
