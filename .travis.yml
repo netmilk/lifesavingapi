@@ -4,7 +4,7 @@ node_js:
   - 0.12
 
 install:
-  - npm install -g dredd
+  - npm install -g dredd@unstable
   - npm install
 
 script: dredd

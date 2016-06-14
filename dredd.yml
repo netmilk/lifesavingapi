@@ -1,7 +1,4 @@
 reporter: apiary
-custom:
-  apiaryApiKey: 1adc5a37d82da4056b9dffb563305eee
-  apiaryApiName: adamjohndoe
 dry-run: null
 hookfiles: null
 language: nodejs
@@ -23,5 +20,5 @@ level: info
 timestamp: false
 silent: false
 path: []
-blueprint: apiary.apib
+blueprint: swagger.yml
 endpoint: 'http://localhost:3000'
